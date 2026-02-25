@@ -37,7 +37,7 @@ jobs:
               uses: docker/metadata-action@v5
               with:
                   images: |
-                      hackmonker/organizer
+                      armed-docker/organizer
 
             - name: Build and push Docker images (AMD64 + ARM64)
               uses: docker/build-push-action@v5
