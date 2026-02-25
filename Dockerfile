@@ -18,7 +18,7 @@ COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 # Default environment
-ENV DOWNLOADS=/downloads
+ENV WATCH_DIRS=/downloads
 ENV ORGANIZE_CONFIG=/config/config.yaml
 ENV LOG_FILE=/logs/organize.log
 ENV DEBOUNCE_SECONDS=15
