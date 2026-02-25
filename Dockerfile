@@ -2,6 +2,7 @@ FROM python:3.11-alpine
 
 # Install required packages
 RUN apk add --no-cache \
+    su-exec \
     p7zip \
     inotify-tools \
     util-linux
